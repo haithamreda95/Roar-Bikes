@@ -1,5 +1,6 @@
 html{
-    background-image:linear-gradient(#FC5E55 ,#FA4083);
+    background-image:linear-gradient(-90deg, #FC5E55 ,#FA4083);
+    height: 100%;
 
 }
 
@@ -93,6 +94,10 @@ main{
 
 .main2 p{
     padding: 20px 0px;
+}
+
+.main3{
+    padding: 0 50px;
 }
 
 
@@ -265,4 +270,26 @@ opacity: 0.75;
 .tbox p:last-of-type{
     font-size: 0.8rem;
     padding-left: 20px;
+}
+
+h2, h3{
+    font-size: 25px;
+}
+
+.map{
+    margin: 20px 0;
+}
+
+footer{
+    text-align: center;
+    margin: 20px 0;
+}
+
+hr{
+    border-top: 1px dotted;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-width: 15px;
+    width: 30%;
 }
